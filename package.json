@@ -6,14 +6,18 @@
   "scripts": {
     "test": "mocha"
   },
-  "author": {
-    "name": "Rasmus Nord",
-    "email": "rasmus.nord@gmail.com",
-    "url": "http://rasmus.co"
-  },
+  "author": "Rasmus Nord <rasmus.nord@gmail.com> (http://rasmus.co)",
   "license": "MIT",
   "devDependencies": {
     "chai": "^3.4.1",
     "mocha": "^2.3.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rasmusnord/smpl-stack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rasmusnord/smpl-stack/issues"
+  },
+  "homepage": "https://github.com/rasmusnord/smpl-stack#readme"
 }
