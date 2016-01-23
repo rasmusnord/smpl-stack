@@ -1,5 +1,5 @@
 {
-  "name": "@rasmusnord/stack",
+  "name": "smpl-stack",
   "version": "0.0.0",
   "description": "A simple stack",
   "main": "index.js",
