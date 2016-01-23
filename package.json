@@ -1,0 +1,12 @@
+{
+  "name": "@rasmusnord/stack",
+  "version": "0.0.0",
+  "description": "A simple stack",
+  "main": "index.js",
+  "author": {
+    "name": "Rasmus Nord",
+    "email": "rasmus.nord@gmail.com",
+    "url": "http://rasmus.co"
+  },
+  "license": "MIT"
+}
