@@ -1,3 +1,10 @@
 language: node_js
 node_js:
   - "5"
+deploy:
+  provider: npm
+  email: rasmus.nord@gmail.com
+  api_key:
+    secure: ngubJ02Kw3e5RvFaYThv7GwaCSUYJwpX3VmWCIeGoBD1qyPAixrEAMIFc6NIQIaO1yTTAoQsAg9WJf8X+uqXv3UaK/2Q/NpXKXPRisrKseZAFuyXVHfXbrIWDT6wqX9UOh80utKjB9CqTk3U04djMVnMV8laQ8ziufXw+cbtMDy9lClzJj4s2OZd6Op7m2TpljrR995EAlLDYRwbpdeCNYtq6BwP9R18Fa9ov5HpUJK6vZbJTlHs2DbRkQjE84zfkgw8vOVNajRw2wG8JMBX2p4l5PGzvwz/1xSu486CVKJAO9+IJ9V8EdI/mG+80BdFXnipiAAGAOSAyDMAp7AgY4au9tsl3cTJNOX4n/6ujrQIh3G5O+/XG3VFdeNfnhIrBL/LTCEt7p5x+RzvGrMlHzLOOO6tmA+/VG7/5/xS8pLp2eeiohczXQ+EBzRIwP6wz1tNIPT6sLF8qEloPROf5j2VBEjxC8bWrDMJ32tCgeYAR80dVqALV635bWH/lAZsvRO/b5vXH0cfhmCpOpkGjkvxc3Zuxd13vofU1hwS36/+CwrUX8sy40JstCLduHT9fq5HVwmPi6jAuf0ONadatOpNRvjB8XoxuYSoqyWlDd/iMmcyqKEO9uE2O92z8CQkc9HyWrNkifEvft/at0n0GtQx2F1dBtC8X7qI/k5yWXY=
+  on:
+    all_branches: true
